@@ -42,7 +42,7 @@ Template.listsShow.helpers({
   },
 
   todos: function(listId) {
-    return Todos.find({listId: listId}, {sort: {createdAt : -1}});
+    return Todos.find({listId: listId}, {sort: {text : 1}});
   }
 });
 
@@ -159,6 +159,7 @@ Template.listsShow.events({
   'submit .js-todo-new': function(event) {
     event.preventDefault();
 
+    var area;
     var $input = $(event.target).find('[type=text]');
     if (! $input.val())
       return;
@@ -167,9 +168,14 @@ Template.listsShow.events({
       listId: this._id,
       text: $input.val(),
       checked: false,
+      area: area,
       createdAt: new Date()
     });
     Lists.update(this._id, {$inc: {incompleteCount: 1}});
     $input.val('');
   }
 });
+var el = document.getElementById('simpleList');
+var sortable = Sortable.create(el,{
+  handle: ".my-handle",
+  animation: 150});
