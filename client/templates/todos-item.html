@@ -4,8 +4,12 @@
       <input type="checkbox" checked="{{checked}}" name="checked">
       <span class="checkbox-custom"></span>
     </label>
+    <span class="my-handle">::</span>
 
     <input type="text" value="{{text}}" placeholder="Task name">
+    <label class="range">
+        <input type="range" min="1" max="12" value="1">
+    </label>
     <a class="js-delete-item delete-item" href="#"><span class="icon-trash"></span></a>
   </div>
 </template>

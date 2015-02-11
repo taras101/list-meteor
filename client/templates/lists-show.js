@@ -42,7 +42,7 @@ Template.listsShow.helpers({
   },
 
   todos: function(listId) {
-    return Todos.find({listId: listId}, {sort: {text : 1}});
+    return Todos.find({listId: listId}, {sort: {checked : false, text : 1}});
   }
 });
 
