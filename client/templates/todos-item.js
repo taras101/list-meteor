@@ -32,14 +32,16 @@ Template.todosItem.events({
       event.target.blur();
     }
   },
-  
+
   // update the text of the item on keypress but throttle the event to ensure
   // we don't flood the server with updates (handles the event at most once 
   // every 300ms)
   'keyup input[type=text]': _.throttle(function(event) {
     Todos.update(this._id, {$set: {text: event.target.value}});
   }, 300),
-  
+  'blur [type=number]': function(event) {
+    Todos.update(this._id, {$set: {number: event.target.value}});
+  },
   // handle mousedown otherwise the blur handler above will swallow the click
   // on iOS, we still require the click event so handle both
   'mousedown .js-delete-item, click .js-delete-item': function() {

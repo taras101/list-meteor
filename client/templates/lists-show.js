@@ -42,7 +42,7 @@ Template.listsShow.helpers({
   },
 
   todos: function(listId) {
-    return Todos.find({listId: listId}, {sort: {checked : false, text : 1}});
+    return Todos.find({listId: listId}, {sort: {checked : false, aisle : 1}});
   }
 });
 
@@ -168,8 +168,8 @@ Template.listsShow.events({
       listId: this._id,
       text: $input.val(),
       checked: false,
-      area: area,
-      createdAt: new Date()
+      createdAt: new Date(),
+      number: 0
     });
     Lists.update(this._id, {$inc: {incompleteCount: 1}});
     $input.val('');
