@@ -5,12 +5,13 @@
   .display(flex);
   .flex-wrap(wrap);
   height: 3rem;
-  width: 80%;
+  width: 100%;
 
   .checkbox { .flex(0, 0, 44px); }
+  .my-handle{ .flex(0,3em)}
   input[type="text"] { .flex(1); }
-  .range{ .flex (1);}
-  .delete-item { .flex(0, 0, 3rem); }
+  .range{ .flex(1, auto); }
+  .delete-item { .flex(0, 4em); }
 
 
   // Style of list-item children
@@ -22,6 +23,7 @@
   }
   .range{
     left:1em;
+    top:100px;
   }
 
   .delete-item {
