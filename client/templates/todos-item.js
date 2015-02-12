@@ -48,8 +48,4 @@ Template.todosItem.events({
       Lists.update(this.listId, {$inc: {incompleteCount: -1}});
   }
 });
-var el = document.getElementById('simpleList');
-var sortable = Sortable.create(el,{
-  handle: ".my-handle",
-  animation: 150});
-  
+
