@@ -1,5 +1,7 @@
 var EDITING_KEY = 'EDITING_TODO_ID';
 
+function addZero(numb){return(numb<10 && !0 ? '0' : '') + numb};
+
 Template.todosItem.helpers({
   checkedClass: function() {
     return this.checked && 'checked';
@@ -39,8 +41,12 @@ Template.todosItem.events({
   'keyup input[type=text]': _.throttle(function(event) {
     Todos.update(this._id, {$set: {text: event.target.value}});
   }, 300),
+  // aisle number input
   'blur [type=number]': function(event) {
-    Todos.update(this._id, {$set: {number: event.target.value}});
+    var numb= event.target.value;
+    var num =addZero(numb);
+    // console.log(numb);
+    Todos.update(this._id, {$set: {number: num}});
   },
   // handle mousedown otherwise the blur handler above will swallow the click
   // on iOS, we still require the click event so handle both
