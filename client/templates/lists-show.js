@@ -159,7 +159,6 @@ Template.listsShow.events({
   'submit .js-todo-new': function(event) {
     event.preventDefault();
 
-    var area;
     var $input = $(event.target).find('[type=text]');
     if (! $input.val())
       return;
@@ -173,6 +172,7 @@ Template.listsShow.events({
     });
     Lists.update(this._id, {$inc: {incompleteCount: 1}});
     $input.val('');
+    $('.js-todo-new input').focus();
   }
 });
 
