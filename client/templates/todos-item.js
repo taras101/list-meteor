@@ -47,7 +47,9 @@ Template.todosItem.events({
     var num =addZero(numb);
     // console.log(numb);
     Todos.update(this._id, {$set: {number: num}});
+
   },
+
   // handle mousedown otherwise the blur handler above will swallow the click
   // on iOS, we still require the click event so handle both
   'mousedown .js-delete-item, click .js-delete-item': function() {

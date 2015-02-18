@@ -165,7 +165,7 @@ Template.listsShow.events({
     
     Todos.insert({
       listId: this._id,
-      text: $input.val(),
+      text: $input.val().toUpperCase(),
       checked: false,
       createdAt: new Date(),
       number: 0
