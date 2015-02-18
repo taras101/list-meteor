@@ -10,7 +10,7 @@
   .checkbox { .flex(0, 0, 44px); }
   .my-handle{ .flex(0,3em)}
   input[type="text"] { .flex(1); }
-  .range{ .flex(0, auto); }
+  .area{ .flex(0, auto); }
   .delete-item { .flex(0, 4em); }
 
 
@@ -21,10 +21,12 @@
 
     &:focus { cursor: text; }
   }
-  .range{
+  .area{
     padding: 1em;
   }
-
+  input[type="number"], textarea {
+  background-color : #d0edf5;
+  }
   .delete-item {
     color: @color-medium-rare;
     line-height: 3rem;
@@ -41,7 +43,7 @@
   // Checked
   &.checked {
     input[type="text"] {
-      color: @color-medium-rare;
+      color: #d0edf5;
       text-decoration: line-through;
     }
 
