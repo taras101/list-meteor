@@ -173,6 +173,14 @@ Template.listsShow.events({
     Lists.update(this._id, {$inc: {incompleteCount: 1}});
     $input.val('');
     $('.js-todo-new input').focus();
+  },
+  'click .js-check': function(event) {
+    event.preventDefault();
+    Todos.find({listId: this._id}).forEach(function(todo) {
+      console.log(this);
+      this.checked;
+    });
+
   }
 });
 
