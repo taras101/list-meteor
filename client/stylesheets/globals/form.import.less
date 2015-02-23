@@ -26,13 +26,18 @@ input:-webkit-autofill {
 }
 
 // Custom checkbox
+.all-checkbox {
+  text-align: center;
+  top:1em;
+}
 .checkbox {
-  display: inline-block;
+  display: block;
   height: 3rem;
   position: relative;
   vertical-align: middle;
   width: 44px;
   color : @color-primary;
+  float: left;
 
   input[type="checkbox"] {
     font-size: 1em;
@@ -59,6 +64,7 @@ input:-webkit-autofill {
     	font-variant: normal;
     	text-transform: none;
     	line-height: 1;
+
 
     	// Better Font Rendering
     	-webkit-font-smoothing: antialiased;
