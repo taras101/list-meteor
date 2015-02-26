@@ -42,12 +42,18 @@ Template.todosItem.events({
     Todos.update(this._id, {$set: {text: event.target.value.toUpperCase()}});
   }, 300),
   // aisle number input
-  'blur [type=number]': function(event) {
+  'blur input[type=number]': function(event) {
     var numb= event.target.value;
     var num =addZero(numb);
     // console.log(numb);
     Todos.update(this._id, {$set: {number: num}});
-
+  },
+  'keydown input[type=number]': function(event) {
+    // ESC or ENTER
+    if (event.which === 27 || event.which === 13) {
+      event.preventDefault();
+      event.target.blur();
+    }
   },
 
   // handle mousedown otherwise the blur handler above will swallow the click
