@@ -177,11 +177,26 @@ Template.listsShow.events({
     'click .js-check': function(event) {
     event.preventDefault();
     var list_id = this._id;
-    console.log(list_id);
+
     Todos.find({listId: list_id}).forEach(function(todo) {
       Todos.update(todo._id, {$set: {checked : true}});
     });
+
     Lists.update(this._id, {$set: {incompleteCount: 0}});
+   $("#allCheckbox").addClass("js-uncheck").removeClass("js-check");
+
+  },
+      'click .js-uncheck': function(event) {
+    event.preventDefault();
+    var list_id = this._id;
+
+    Todos.find({listId: list_id}).forEach(function(todo) {
+      Todos.update(todo._id, {$set: {checked : false}});
+    });
+
+    Lists.update(this._id, {$set: {incompleteCount: 0}});
+   $("#allCheckbox").addClass("js-check").removeClass("js-uncheck");
+
   },
   
 });
