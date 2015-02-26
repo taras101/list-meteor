@@ -189,12 +189,15 @@ Template.listsShow.events({
       'click .js-uncheck': function(event) {
     event.preventDefault();
     var list_id = this._id;
+    var todoCount=0;
 
     Todos.find({listId: list_id}).forEach(function(todo) {
       Todos.update(todo._id, {$set: {checked : false}});
+      todoCount++;
     });
-
-    Lists.update(this._id, {$set: {incompleteCount: 0}});
+    
+    console.log(todoCount);
+    Lists.update(this._id, {$set: {incompleteCount: todoCount}});
    $("#allCheckbox").addClass("js-check").removeClass("js-uncheck");
 
   },
