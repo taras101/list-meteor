@@ -174,13 +174,16 @@ Template.listsShow.events({
     $input.val('');
     $('.js-todo-new input').focus();
   },
-  'click .js-check': function(event) {
+    'click .js-check': function(event) {
     event.preventDefault();
-    Todos.find({listId: this._id}).forEach(function(todo) {
-      console.log(this);
-      this.checked;
+    var list_id = this._id;
+    console.log(list_id);
+    Todos.find({listId: list_id}).forEach(function(todo) {
+        Todos.update(todo._id, {$set: {checked : true}});
+      // Lists.update(this.listId, {$inc: {incompleteCount: checked ? -1 : 1}});
+      console.log(todo);
     });
-
-  }
+  },
+  
 });
 
