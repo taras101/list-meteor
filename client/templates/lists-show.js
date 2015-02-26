@@ -179,10 +179,9 @@ Template.listsShow.events({
     var list_id = this._id;
     console.log(list_id);
     Todos.find({listId: list_id}).forEach(function(todo) {
-        Todos.update(todo._id, {$set: {checked : true}});
-      // Lists.update(this.listId, {$inc: {incompleteCount: checked ? -1 : 1}});
-      console.log(todo);
+      Todos.update(todo._id, {$set: {checked : true}});
     });
+    Lists.update(this._id, {$set: {incompleteCount: 0}});
   },
   
 });
