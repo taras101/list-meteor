@@ -114,7 +114,8 @@ Template.appBody.events({
     
     // if we are on a private list, we'll need to go to a public one
     var current = Router.current();
-    if (current.route.name === 'listsShow' && current.data().userId) {
+    console.log('listsShow');
+    if (current.route.getName() === 'listsShow' && current.data().userId) {
       Router.go('listsShow', Lists.findOne({userId: {$exists: false}}));
     }
   },
