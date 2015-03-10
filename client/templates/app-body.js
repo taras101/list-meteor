@@ -76,7 +76,7 @@ Template.appBody.helpers({
   },
   activeListClass: function() {
     var current = Router.current();
-    if (current.route.name === 'listsShow' && current.params._id === this._id) {
+    if (current.route.getName() === 'listsShow' && current.params._id === this._id) {
       return 'active';
     }
   },
