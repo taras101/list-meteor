@@ -8,11 +8,11 @@
 
     <div class="content-scrollable">
       <div class="wrapper-auth">
-        <h1 class="title-auth">Sign In.</h1>
-        <p class="subtitle-auth" >Signing in allows you to view private lists</p>
+       <!--  <h1 class="title-auth">Sign In.</h1>
+        <p class="subtitle-auth" >Signing in allows you to view private lists</p> -->
 
         <form>
-          {{#if errorMessages}}
+        <!--   {{#if errorMessages}}
             <div class="list-errors">
               {{#each errorMessages}}
                 <div class="list-item">{{this}}</div>
@@ -28,16 +28,16 @@
           <div class="input-symbol {{errorClass 'password'}}">
             <input type="password" name="password" placeholder="Password" />
             <span class="icon-lock" title="Password"></span>
-          </div>
+          </div> -->
           {{> atForm}}
-           <a href="{{pathFor 'RecoverPassword'}}" class="link-auth-alt">Forgot Password</a>
+        <!--    <a href="{{pathFor 'RecoverPassword'}}" class="link-auth-alt">Forgot Password</a>
 
           <p class="link-auth-alt">or</p>
-          <button type="submit" class="btn-primary">Sign in</button>
+          <button type="submit" class="btn-primary">Sign in</button> -->
         </form>
       </div>
      
-      <a href="{{pathFor 'join'}}" class="link-auth-alt">Need an account? Join Now.</a>
+      <!-- <a href="{{pathFor 'join'}}" class="link-auth-alt">Need an account? Join Now.</a> -->
     </div>
   </div>
 </template>
