@@ -1,30 +1,35 @@
-.page.auth {
-  text-align: center;
+.at-form{
+    text-align: center;
+    padding-top: 3em;
+    .control-label{
+    display: none;
+    }
+    .at-title {
+        h3{
+      .font-l1;
+      .type-light;
+      color: @color-ancillary;
+      margin-bottom: .75rem;
+      }
+    }
+  }
+  a {
+  color: #aaaaaa;
+  }
+
+  a:hover {
+    color: #71b1c3;
+  }
+
   .form-control{
   padding-left:1em;
   }
-  .at-title {
-      h3{
-    .font-l1;
-    .type-light;
-    color: @color-ancillary;
-    margin-bottom: .75rem;
-    }
-  }
-  a{
-  color: #aaaaaa;
-  }
-  a:hover {
-color: #71b1c3;
-}
+
+.page.auth {
   
-  .control-label{
-  display: none;
-  }
   .content-scrollable { background: @color-tertiary; }
 
   .wrapper-auth {
-    padding-top: 3em;
 
     @media screen and (min-width: 40em) {
       margin: 0 auto;
