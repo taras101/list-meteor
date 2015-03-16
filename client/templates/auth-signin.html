@@ -30,12 +30,13 @@
             <span class="icon-lock" title="Password"></span>
           </div>
           {{> atForm}}
+           <a href="{{pathFor 'RecoverPassword'}}" class="link-auth-alt">Forgot Password</a>
+
+          <p class="link-auth-alt">or</p>
           <button type="submit" class="btn-primary">Sign in</button>
         </form>
       </div>
-      <a href="{{pathFor 'RecoverPassword'}}" class="link-auth-alt">Forgot Password</a>
-
-      <p class="link-auth-alt">or</p>
+     
       <a href="{{pathFor 'join'}}" class="link-auth-alt">Need an account? Join Now.</a>
     </div>
   </div>
