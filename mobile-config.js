@@ -1,10 +1,10 @@
 App.info({
   name: 'Super-List',
   description: 'A simple todo list app tweaked and built in Meteor.',
-  author: 'Percolate Studio Team',
-  email: 'us@percolatestudio.com',
+  author: 'Percolate Studio Team & modded by Taras Petryk',
+  email: '',
   website: 'http://percolatestudio.com',
-  version: '0.0.1'
+  version: '0.0.2'
 });
 
 App.icons({
