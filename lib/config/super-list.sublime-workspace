@@ -1,0 +1,1743 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"forgotPwd"
+			],
+			[
+				"fr",
+				"forgotPwd"
+			],
+			[
+				"signin",
+				"signin"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"todo",
+				"todoCount"
+			],
+			[
+				"list",
+				"listId"
+			],
+			[
+				"b",
+				"br	Tag"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"sound",
+				"soundDuration"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"animate",
+				"animateStar"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"trans",
+				"translate"
+			],
+			[
+				"mou",
+				"mouseout"
+			],
+			[
+				"node",
+				"nodeGroup"
+			],
+			[
+				"layou",
+				"layoutRoot"
+			],
+			[
+				"tre",
+				"treeData"
+			],
+			[
+				"inner",
+				"innerHeight"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"font",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/taraspetryk/Projects/list_meteor/.meteor/sunrise.css",
+			"settings":
+			{
+				"buffer_size": 1131,
+				"line_ending": "Unix",
+				"name": "background: rgb(135,224,253); /* Old browsers */"
+			}
+		},
+		{
+			"file": "/Users/taraspetryk/Projects/list_meteor/lib/router.js",
+			"settings":
+			{
+				"buffer_size": 1753,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/taraspetryk/Projects/list_meteor/client/templates/app-body.js",
+			"settings":
+			{
+				"buffer_size": 3473,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/taraspetryk/Projects/list_meteor/client/templates/app-body.html",
+			"settings":
+			{
+				"buffer_size": 1892,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/taraspetryk/Projects/list_meteor/client/head.html",
+			"settings":
+			{
+				"buffer_size": 530,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/taraspetryk/Projects/list_meteor/client/templates/auth-join.js",
+			"settings":
+			{
+				"buffer_size": 1126,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/taraspetryk/.meteor/packages/useraccounts_bootstrap/.1.8.1.bgotxm++os+web.browser+web.cordova/web.browser/packages/useraccounts:bootstrap.js",
+			"settings":
+			{
+				"buffer_size": 106556,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/taraspetryk/.meteor/packages/useraccounts_bootstrap/.1.8.1.bgotxm++os+web.browser+web.cordova/web.cordova/packages/useraccounts:bootstrap.js",
+			"settings":
+			{
+				"buffer_size": 106556,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/taraspetryk/Projects/list_meteor/client/templates/auth.import.less",
+			"settings":
+			{
+				"buffer_size": 1626,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/taraspetryk/Projects/list_meteor/.meteor/packages",
+			"settings":
+			{
+				"buffer_size": 320,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/taraspetryk/Projects/list_meteor/client/templates/lists-show.js",
+			"settings":
+			{
+				"buffer_size": 5400,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/taraspetryk/Projects/list_meteor/.meteor/local/cordova-build/config.xml",
+			"settings":
+			{
+				"buffer_size": 4252,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/taraspetryk/Projects/list_meteor/client/templates/auth-signin.html",
+			"settings":
+			{
+				"buffer_size": 391,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/taraspetryk/Projects/list_meteor/client/templates/auth-signin.js",
+			"settings":
+			{
+				"buffer_size": 983,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "at_config.js",
+			"settings":
+			{
+				"buffer_size": 1646,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/taraspetryk/Projects/list_meteor/mobile-config.js",
+			"settings":
+			{
+				"buffer_size": 1792,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"bra",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/taraspetryk/.meteor/packages/useraccounts_bootstrap/.1.8.1.bgotxm++os+web.browser+web.cordova/web.cordova.json",
+		"/Users/taraspetryk/.meteor/packages/useraccounts_bootstrap/.1.8.1.bgotxm++os+web.browser+web.cordova/web.cordova/packages/useraccounts:bootstrap.js",
+		"/Users/taraspetryk/Projects/list_meteor/server/bootstrap.js",
+		"/Users/taraspetryk/Projects/list_meteor/.meteor/local/build/programs/web.browser/packages/useraccounts_bootstrap.js",
+		"/Users/taraspetryk/.meteor/packages/useraccounts_bootstrap/.1.8.1.bgotxm++os+web.browser+web.cordova/web.browser/packages/useraccounts:bootstrap.js",
+		"/Users/taraspetryk/Projects/list_meteor/.meteor/local/build/programs/server/packages/useraccounts_bootstrap.js",
+		"/Users/taraspetryk/Projects/list_meteor/.meteor/local/build/programs/server/app/server/bootstrap.js",
+		"/Users/taraspetryk/Projects/list_meteor/.meteor/local/build/programs/server/packages/useraccounts_core.js",
+		"/Users/taraspetryk/Projects/list_meteor/.meteor/local/build/programs/web.cordova/packages/useraccounts_bootstrap.js.map",
+		"/Users/taraspetryk/Projects/list_meteor/client/templates/at_config.js",
+		"/Users/taraspetryk/Projects/list_meteor/lib/at_config.js",
+		"/Users/taraspetryk/Projects/list_meteor/lib/collections.js",
+		"/Users/taraspetryk/Projects/list_meteor/client/templates/lists-show.html",
+		"/Users/taraspetryk/Projects/list_meteor/client/templates/todos-item.html",
+		"/Users/taraspetryk/Projects/list_meteor/client/templates/change-password.js",
+		"/Users/taraspetryk/Projects/list_meteor/client/templates/change-password.html",
+		"/Users/taraspetryk/Projects/list_meteor/client/templates/recover-password.js",
+		"/Users/taraspetryk/Projects/list_meteor/client/templates/auth-forgot-reset-password.html",
+		"/Users/taraspetryk/Projects/list_meteor/client/templates/auth.import.less",
+		"/Users/taraspetryk/Projects/list_meteor/client/stylesheets/globals/layout.import.less",
+		"/Users/taraspetryk/Projects/list_meteor/client/stylesheets/globals/list-items.import.less",
+		"/Users/taraspetryk/Projects/list_meteor/client/templates/lists-show.js",
+		"/Users/taraspetryk/Projects/list_meteor/client/templates/todos-item.js",
+		"/Users/taraspetryk/Projects/list_meteor/client/stylesheets/globals/form.import.less",
+		"/Users/taraspetryk/Projects/list_meteor/client/stylesheets/globals/nav.import.less",
+		"/Users/taraspetryk/Projects/list_meteor/.meteor/packages",
+		"/Users/taraspetryk/Projects/list_meteor/client/templates/loading.html",
+		"/Users/taraspetryk/Projects/list_meteor/client/templates/loading.import.less",
+		"/Users/taraspetryk/Projects/list_meteor/client/stylesheets/globals/base.import.less",
+		"/Users/taraspetryk/Documents/introduction-to-RWD-lesson2.1/01.html",
+		"/Users/taraspetryk/Documents/introduction-to-RWD-lesson2.1/01.css",
+		"/Users/taraspetryk/Projects/list_meteor/client/templates/app-body.js",
+		"/Users/taraspetryk/Projects/list_meteor/client/stylesheets/util/variables.import.less",
+		"/Users/taraspetryk/Projects/list_meteor/client/head.html",
+		"/Users/taraspetryk/Projects/list_meteor/client/templates/app-body.html",
+		"/Users/taraspetryk/Projects/list_meteor/client/stylesheets/globals/menu.import.less",
+		"/Users/taraspetryk/Projects/list_meteor/resources/icons/icon-29x29@2x.png",
+		"/Users/taraspetryk/Projects/humanresouces/public/js/team.html",
+		"/Users/taraspetryk/Projects/humanresouces/public/js/teams.html",
+		"/Users/taraspetryk/Projects/humanresouces/home.html",
+		"/Users/taraspetryk/Projects/humanresouces/public/css/style.css",
+		"/Users/taraspetryk/Projects/humanresouces/public/js/employees.html",
+		"/Users/taraspetryk/Projects/humanresouces/public/js/employee.html",
+		"/Users/taraspetryk/Projects/humanresouces/public/js/home.html",
+		"/Users/taraspetryk/Projects/humanresouces/public/js/index.html",
+		"/Users/taraspetryk/Projects/humanresouces/public/home.html",
+		"/Users/taraspetryk/Projects/humanresouces/routes/employees.js",
+		"/Users/taraspetryk/Projects/humanresouces/routes/teams.js",
+		"/Users/taraspetryk/Projects/humanresouces/public/index.html",
+		"/Users/taraspetryk/Projects/humanresouces/public/edit.html",
+		"/Users/taraspetryk/Projects/humanresouces/public/view.html",
+		"/Users/taraspetryk/Projects/humanresouces/public/scripts/webapp.js",
+		"/Users/taraspetryk/Projects/humanresouces/home1.html",
+		"/Users/taraspetryk/Projects/humanresouces/package.json",
+		"/Users/taraspetryk/Projects/humanresouces/bin/www",
+		"/Users/taraspetryk/Projects/humanresouces/app.js",
+		"/Users/taraspetryk/Projects/humanresouces/lib/responseGenerator.js",
+		"/Users/taraspetryk/Projects/humanresouces/database/employees.json",
+		"/Users/taraspetryk/Projects/humanresouces/lib/connection.js",
+		"/Users/taraspetryk/Projects/humanresouces/bin/populate_db.js",
+		"/Users/taraspetryk/Projects/humanresouces/node_modules/mongoose/package.json",
+		"/Users/taraspetryk/Projects/humanresouces/node_modules/express/package.json",
+		"/Users/taraspetryk/Projects/humanresouces/node_modules/colors/package.json",
+		"/Users/taraspetryk/Projects/Portfolio1/node_modules/grunt/lib/grunt.js",
+		"/Users/taraspetryk/Projects/Portfolio1/app/views/bios/index.html.erb",
+		"/Users/taraspetryk/Projects/nz/style.css",
+		"/Users/taraspetryk/Projects/simple_grove/treeData.json",
+		"/Users/taraspetryk/Projects/simple_grove/manifest.json",
+		"/Users/taraspetryk/Projects/traditionalstudiespress.com/html/index.html",
+		"/Users/taraspetryk/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/taraspetryk/Projects/Portfolio1/app/views/main/index.html.erb",
+		"/Users/taraspetryk/Projects/noahsite/nz/home.html",
+		"/Users/taraspetryk/Projects/noahsite/nz/press.html",
+		"/Users/taraspetryk/Projects/noahsite/nz/newsongs.html",
+		"/Users/taraspetryk/Projects/noahsite/nz/javascript.js",
+		"/Users/taraspetryk/Projects/noahsite/nz/index.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"minima",
+			"at_input",
+			"#email",
+			"3email",
+			"at-field-email",
+			"atForm",
+			"reset",
+			"resetPwd",
+			"texts: {",
+			"texts",
+			"at-form",
+			"listFadeInHol",
+			"loading",
+			"emailLocalPart",
+			"label",
+			"text-ali",
+			"title-wrapper",
+			"icon-trash",
+			"<script",
+			"script",
+			"list-todo",
+			"link-list-new",
+			"315481",
+			"checkbox",
+			"<",
+			"links",
+			"filter",
+			"data",
+			"duration",
+			"data",
+			"'",
+			"token:",
+			"'",
+			"'http",
+			"token",
+			"url",
+			"contents",
+			"value",
+			"token",
+			"url",
+			"contents",
+			"value",
+			"name",
+			"json",
+			"maxL",
+			"total",
+			"h1",
+			"h2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/taraspetryk/Projects/list_meteor/.meteor/sunrise.css",
+					"settings":
+					{
+						"buffer_size": 1131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1131,
+								1131
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "background: rgb(135,224,253); /* Old browsers */",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/taraspetryk/Projects/list_meteor/lib/router.js",
+					"settings":
+					{
+						"buffer_size": 1753,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1608,
+								1608
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/taraspetryk/Projects/list_meteor/client/templates/app-body.js",
+					"settings":
+					{
+						"buffer_size": 3473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2931,
+								2931
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1930.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/taraspetryk/Projects/list_meteor/client/templates/app-body.html",
+					"settings":
+					{
+						"buffer_size": 1892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								804,
+								804
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/taraspetryk/Projects/list_meteor/client/head.html",
+					"settings":
+					{
+						"buffer_size": 530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								177
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/taraspetryk/Projects/list_meteor/client/templates/auth-join.js",
+					"settings":
+					{
+						"buffer_size": 1126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								573,
+								573
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/taraspetryk/.meteor/packages/useraccounts_bootstrap/.1.8.1.bgotxm++os+web.browser+web.cordova/web.browser/packages/useraccounts:bootstrap.js",
+					"settings":
+					{
+						"buffer_size": 106556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21060,
+								21060
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3854.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/taraspetryk/.meteor/packages/useraccounts_bootstrap/.1.8.1.bgotxm++os+web.browser+web.cordova/web.cordova/packages/useraccounts:bootstrap.js",
+					"settings":
+					{
+						"buffer_size": 106556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30875,
+								30875
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5754.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/taraspetryk/Projects/list_meteor/client/templates/auth.import.less",
+					"settings":
+					{
+						"buffer_size": 1626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/taraspetryk/Projects/list_meteor/.meteor/packages",
+					"settings":
+					{
+						"buffer_size": 320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/taraspetryk/Projects/list_meteor/client/templates/lists-show.js",
+					"settings":
+					{
+						"buffer_size": 5400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								975,
+								975
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/taraspetryk/Projects/list_meteor/.meteor/local/cordova-build/config.xml",
+					"settings":
+					{
+						"buffer_size": 4252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1008.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 12,
+					"file": "/Users/taraspetryk/Projects/list_meteor/client/templates/auth-signin.html",
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Users/taraspetryk/Projects/list_meteor/client/templates/auth-signin.js",
+					"settings":
+					{
+						"buffer_size": 983,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								604,
+								604
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "at_config.js",
+					"settings":
+					{
+						"buffer_size": 1646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								281,
+								281
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/Users/taraspetryk/Projects/list_meteor/mobile-config.js",
+					"settings":
+					{
+						"buffer_size": 1792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.634458659377,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 329.0,
+	"status_bar_visible": true
+}
