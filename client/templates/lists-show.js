@@ -13,6 +13,7 @@ Template.listsShow.rendered = function() {
 
     // Handle for launch screen defined in app-body.js
     listRenderHold.release();
+    Session.set('sort',{checked : true, number : 1})
 
     firstRender = false;
   }
@@ -131,28 +132,31 @@ Template.listsShow.events({
   },
 
   'change .list-edit': function(event, template) {
-    if ($(event.target).val() === 'edit') {
+    listId = template.data._id;
+    console.log(template.data);
+    if ($(event.target).val() === 'aisle') {
+      console.log("aisle");
+    sortOption = {checked : true, number : 1};
+    } else if ($(event.target).val() === 'alpha')
+    {
+      console.log("alpha");
+      sortOption = {checked : true, text: 1};
+    }
+    else if 
+      ($(event.target).val() === 'edit') {
       editList(this, template);
     } else if ($(event.target).val() === 'delete') {
       deleteList(this, template);
     } else {
       toggleListPrivacy(this, template);
     }
-
+console.log(template.data);
+    Session.set('sort', sortOption);
     event.target.selectedIndex = 0;
   },
    'change .list-sort': function(event, template) {
-    listId = template.data._id;
-    console.log(template.data);
-    if ($(event.target).val() === 'aisle') {
-      console.log("aisle");
-    sortOption = {checked : true, number : 1};
-    } else {
-      console.log("alpha");
-      sortOption = {checked : true, text: 1};
-    }
-    console.log(template.data);
-    Session.set("sort", sortOption);
+    
+    
   },
   
   'click .js-edit-list': function(event, template) {

@@ -17,17 +17,22 @@
 
         <div class="nav-group right">
           <div class="nav-item options-mobile">
-            <select class="list-edit">
+            <select class="list-edit list-sort">
               <option disabled selected>Select an action</option>
               {{#if userId}}
                 <option value="public">Make Public</option>
               {{else}}
                 <option value="private">Make Private</option>
               {{/if}}
+                <option value="aisle">Sort by Aisle</option>
+                <option value="alpha">Sort by Alphabetical</option>
+             
               <option value="delete">Delete</option>
             </select>
             <span class="icon-cog"></span>
+
           </div>
+
           
           <div class="options-web">
             <a class="js-toggle-list-privacy nav-item">
@@ -37,7 +42,13 @@
                 <span class="icon-unlock" title="Make list public"></span>
               {{/if}}
             </a>
+             <a class="js-toggle-list-privacy nav-item">
+            <span class="arrow-down">Sort by</span>
+                  <option value="aisle">Sort by Aisle</option>
+            
+                  <option value="alpha">Sort by Alphabetical</option>
 
+                </a>
             <a class="js-delete-list nav-item">
               <span class="icon-trash" title="Delete list"></span>
             </a>
@@ -52,16 +63,7 @@
         
         <input type="text" placeholder="Type to add new tasks">
         <span class="icon-add js-todo-add"></span>
-        <div class="nav-item ">
-          <select class="list-sort">
-            <option disabled selected>Sort by</option>
-            
-              <option value="aisle">Aisle</option>
-            
-              <option value="alpha">Alphabetical</option>
-          </select>
-          <span class="icon-arrow-down"></span>
-        </div>
+        
       </form>
     </nav>
 
