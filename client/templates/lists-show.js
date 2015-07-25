@@ -19,6 +19,7 @@ Template.listsShow.rendered = function() {
 
   this.find('.js-title-nav')._uihooks = {
     insertElement: function(node, next) {
+      console.log(node);
       $(node)
         .hide()
         .insertBefore(next)
@@ -42,7 +43,8 @@ Template.listsShow.helpers({
   },
 
   todos: function(listId) {
-    return Todos.find({listId: listId}, {sort: {checked : false, number : 1}});
+  sortOption = Session.get('sort')
+    return Todos.find({listId: listId}, {sort: sortOption});
   }
 });
 
@@ -138,6 +140,19 @@ Template.listsShow.events({
     }
 
     event.target.selectedIndex = 0;
+  },
+   'change .list-sort': function(event, template) {
+    listId = template.data._id;
+    console.log(template.data);
+    if ($(event.target).val() === 'aisle') {
+      console.log("aisle");
+    sortOption = {checked : true, number : 1};
+    } else {
+      console.log("alpha");
+      sortOption = {checked : true, text: 1};
+    }
+    console.log(template.data);
+    Session.set("sort", sortOption);
   },
   
   'click .js-edit-list': function(event, template) {

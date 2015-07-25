@@ -28,6 +28,7 @@
             </select>
             <span class="icon-cog"></span>
           </div>
+          
           <div class="options-web">
             <a class="js-toggle-list-privacy nav-item">
               {{#if userId}}
@@ -48,8 +49,19 @@
         <label class="checkbox ">
           <a class="js-check all-checkbox" id="allCheckbox" title="check/uncheck all"> &nbsp; All</a>
         </label>
+        
         <input type="text" placeholder="Type to add new tasks">
         <span class="icon-add js-todo-add"></span>
+        <div class="nav-item ">
+          <select class="list-sort">
+            <option disabled selected>Sort by</option>
+            
+              <option value="aisle">Aisle</option>
+            
+              <option value="alpha">Alphabetical</option>
+          </select>
+          <span class="icon-arrow-down"></span>
+        </div>
       </form>
     </nav>
 
