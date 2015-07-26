@@ -150,17 +150,23 @@ Template.listsShow.events({
     } else {
       toggleListPrivacy(this, template);
     }
-console.log(template.data);
+    console.log(template.data);
     Session.set('sort', sortOption);
     event.target.selectedIndex = 0;
-  },
-   'change .list-sort': function(event, template) {
-    
-    
   },
   
   'click .js-edit-list': function(event, template) {
     editList(this, template);
+  },
+  'click .js-sort': function() {
+    if (Session.get('sort').number === 1)
+      {
+        sortOption = {checked : true, text: 1};
+        Session.set('sort', sortOption);
+      } else{
+        sortOption ={checked : true, number : 1};
+        Session.set('sort', sortOption);
+      }
   },
   
   'click .js-toggle-list-privacy': function(event, template) {
