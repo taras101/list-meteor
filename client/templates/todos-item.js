@@ -1,6 +1,6 @@
 var EDITING_KEY = 'EDITING_TODO_ID';
 
-function addZero(numb){return(numb<10 && !0 ? '0' : '') + numb};
+function addZero(numb){return parseInt((numb<10 && !0 ? '0' : '') + numb)};
 
 Template.todosItem.helpers({
   checkedClass: function() {
@@ -44,12 +44,13 @@ Template.todosItem.events({
   // aisle number input
   'blur input[type=number]': function(event) {
     var numb= event.target.value;
-    var num =addZero(numb);
-    // console.log(numb);
+    var num = parseInt(addZero(numb));
     Todos.update(this._id, {$set: {number: num}});
   },
   'keydown input[type=number]': function(event) {
     // ESC or ENTER
+    console.log("keydown");
+
     if (event.which === 27 || event.which === 13) {
       event.preventDefault();
       event.target.blur();
