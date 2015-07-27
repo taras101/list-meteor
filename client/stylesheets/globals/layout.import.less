@@ -29,7 +29,9 @@ body {
 #menu {
   .position(absolute, 0, 0, 0, 0, @menu-width);
 }
-
+[class^="btn-"][class*="secondary"], [class*=" btn-"][class*="secondary"] {
+  box-shadow: #000 0 0 0 1px inset;
+}
 #content-container {
   .position(absolute, 0, 0, 0, 0);
   .transition(all 200ms ease-out);
