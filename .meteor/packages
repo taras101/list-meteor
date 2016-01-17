@@ -10,3 +10,4 @@ less
 iron:router
 accounts-password
 useraccounts:bootstrap
+meteorhacks:fast-render
