@@ -32,14 +32,16 @@ Meteor.startup(function () {
   }, CONNECTION_ISSUE_TIMEOUT);
 });
 
-Template.appBody.rendered = function() {
+Template.appBody.onRendered(function() {
   this.find('#content-container')._uihooks = {
     insertElement: function(node, next) {
       $(node)
         .hide()
         .insertBefore(next)
         .fadeIn(function () {
-          listFadeInHold.release();
+          if (listFadeInHold) {
+            listFadeInHold.release();
+          }
         });
     },
     removeElement: function(node) {
@@ -48,7 +50,7 @@ Template.appBody.rendered = function() {
       });
     }
   };
-};
+});
 
 Template.appBody.helpers({
   // We use #each on an array of one item so that the "list" template is
@@ -76,7 +78,7 @@ Template.appBody.helpers({
   },
   activeListClass: function() {
     var current = Router.current();
-    if (current.route.getName() === 'listsShow' && current.params._id === this._id) {
+    if (current.route.name === 'listsShow' && current.params._id === this._id) {
       return 'active';
     }
   },
@@ -115,7 +117,7 @@ Template.appBody.events({
     // if we are on a private list, we'll need to go to a public one
     var current = Router.current();
     console.log('listsShow');
-    if (current.route.getName() === 'listsShow' && current.data().userId) {
+    if (current.route.name === 'listsShow' && current.data().userId) {
       Router.go('listsShow', Lists.findOne({userId: {$exists: false}}));
     }
   },

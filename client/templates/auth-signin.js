@@ -1,10 +1,10 @@
 var ERRORS_KEY = 'signinErrors';
 
-Template.signin.created = function() {
+Template.signIn.onCreated(function() {
   Session.set(ERRORS_KEY, {});
-};
+});
 
-Template.signin.helpers({
+Template.signIn.helpers({
   errorMessages: function() {
     return _.values(Session.get(ERRORS_KEY));
   },
@@ -13,7 +13,7 @@ Template.signin.helpers({
   }
 });
 
-Template.signin.events({
+Template.signIn.events({
   'submit': function(event, template) {
     event.preventDefault();
     

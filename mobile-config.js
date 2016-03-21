@@ -3,8 +3,7 @@ App.info({
   description: 'A simple todo list app tweaked and built in Meteor.',
   author: 'Percolate Studio Team & modded by Taras Petryk',
   email: '',
-  website: 'http://percolatestudio.com',
-  version: '0.0.2'
+  version: '0.0.3'
 });
 
 App.icons({
@@ -31,4 +30,5 @@ App.launchScreens({
 
 App.setPreference('StatusBarOverlaysWebView', 'false');
 App.setPreference('StatusBarBackgroundColor', '#000000');
+App.accessRule("*");
 
